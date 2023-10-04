@@ -223,6 +223,10 @@ header ul li a:hover {
     }
 
     .company-features p {
+        padding-bottom: 50px;
+    }
+    #company-features-sec{
+        margin-top: 25px;
         padding-bottom: 10px;
     }
 }
@@ -275,7 +279,8 @@ header ul li a:hover {
     color: gray;
     padding-bottom: 15px;
 }
-#company-mission-first-p{
+
+#company-mission-first-p {
     margin-top: -30px;
 }
 
@@ -288,7 +293,8 @@ header ul li a:hover {
     padding: 10px 10px;
     margin: 20px;
 }
-.card-icon{
+
+.card-icon {
     display: flex;
     background-color: red;
     border-radius: 5px;
@@ -299,6 +305,7 @@ header ul li a:hover {
     margin-right: 10px;
     padding: 10px;
 }
+
 .service-card img {
     width: 60px;
     filter: invert(100%);
@@ -323,7 +330,6 @@ header ul li a:hover {
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        padding: 10px 20px;
     }
 
     .company-services-cards {
@@ -331,6 +337,11 @@ header ul li a:hover {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    .service-card{
+        padding: 5px;
     }
 
     .company-services p {
@@ -339,6 +350,9 @@ header ul li a:hover {
 
     #our-mission-heading {
         margin-top: 20px;
+    }
+    #company-services-sec{
+        padding: 0;
     }
 }
 
@@ -427,6 +441,9 @@ header ul li a:hover {
     .company-work p {
         padding-bottom: 10px;
     }
+    .company-work p{
+        padding-bottom: 50px;
+    }
 }
 
 /* company's global services section */
@@ -460,10 +477,13 @@ header ul li a:hover {
     align-items: center;
 }
 
+.global-services-img-frame {
+    margin: 5px;
+}
 
 .global-services img {
-    width: 390px;
-    margin: 5px;
+    width: 100%;
+
 }
 
 .global-services-btn {
