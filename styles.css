@@ -142,7 +142,7 @@ header ul li a:hover {
         width: 90%;
         margin: 10px 0;
     }
-    .bottom-padding-10{
+    .bottom-padding-10 {
         padding-bottom: 10px;
     }
 
@@ -334,7 +334,8 @@ header ul li a:hover {
 #contact-us-btn {
     margin-top: 25px;
 }
-.service-card p{
+
+.service-card p {
     color: gray;
 }
 
@@ -359,7 +360,8 @@ header ul li a:hover {
         padding: 5px;
         margin: 10px 0;
     }
-    .service-card p{
+
+    .service-card p {
         color: gray;
     }
 
