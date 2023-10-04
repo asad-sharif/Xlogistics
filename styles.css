@@ -102,6 +102,13 @@ header ul li a:hover {
     margin: 10px 0;
 }
 
+#main-banner-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .main-banner-info {
     background-color: red;
     color: white;
@@ -111,7 +118,6 @@ header ul li a:hover {
     align-items: center;
     flex-wrap: wrap;
     position: relative;
-    left: 15%;
     border-radius: 8px;
     padding: 40px 15px;
     transform: translateY(-50%);
@@ -133,7 +139,11 @@ header ul li a:hover {
         align-items: start;
         padding: 10px 20px;
         transform: translateY(2%);
-
+        width: 90%;
+        margin: 10px 0;
+    }
+    .bottom-padding-10{
+        padding-bottom: 10px;
     }
 
     .main-banner-info p {
@@ -225,7 +235,8 @@ header ul li a:hover {
     .company-features p {
         padding-bottom: 50px;
     }
-    #company-features-sec{
+
+    #company-features-sec {
         margin-top: 25px;
         padding-bottom: 10px;
     }
@@ -340,7 +351,8 @@ header ul li a:hover {
         padding: 0;
         margin: 0;
     }
-    .service-card{
+
+    .service-card {
         padding: 5px;
     }
 
@@ -351,7 +363,8 @@ header ul li a:hover {
     #our-mission-heading {
         margin-top: 20px;
     }
-    #company-services-sec{
+
+    #company-services-sec {
         padding: 0;
     }
 }
@@ -441,7 +454,8 @@ header ul li a:hover {
     .company-work p {
         padding-bottom: 10px;
     }
-    .company-work p{
+
+    .company-work p {
         padding-bottom: 50px;
     }
 }
