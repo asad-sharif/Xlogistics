@@ -478,6 +478,7 @@ header ul li a:hover {
 }
 
 .global-services-img-frame {
+    width: 320px;
     margin: 5px;
 }
 
