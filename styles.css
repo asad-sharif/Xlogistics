@@ -334,6 +334,9 @@ header ul li a:hover {
 #contact-us-btn {
     margin-top: 25px;
 }
+.service-card p{
+    color: gray;
+}
 
 @media (max-width: 770px) {
     .company-services {
@@ -354,6 +357,10 @@ header ul li a:hover {
 
     .service-card {
         padding: 5px;
+        margin: 10px 0;
+    }
+    .service-card p{
+        color: gray;
     }
 
     .company-services p {
