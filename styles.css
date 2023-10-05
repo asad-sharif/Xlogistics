@@ -114,15 +114,27 @@ header ul li a:hover {
 .main-banner-info {
     background-color: red;
     color: white;
-    width: 70%;
+    width: 80%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     position: relative;
     border-radius: 8px;
-    padding: 40px 15px;
+    padding: 40px 25px;
     transform: translateY(-50%);
+}
+.main-banner-info-sec{
+    display: flex;
+}
+.main-banner-info-sec img{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+.main-banner-info-icon{
+    height: 40px;
+    margin-right: 10px;
 }
 
 .main-banner-info h3 {
@@ -133,13 +145,14 @@ header ul li a:hover {
     margin-bottom: 5px;
 }
 
-@media (max-width: 970px) {
+@media (max-width: 990px) {
     .main-banner-info {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        padding: 10px 20px;
+        flex-wrap: wrap;
+        padding: 20px 20px;
         transform: translateY(2%);
         width: 90%;
         margin: 10px 0;
