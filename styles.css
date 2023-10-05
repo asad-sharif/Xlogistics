@@ -27,7 +27,7 @@ p {
     background-color: red;
     border: red;
     color: white;
-    padding: 5px 10px;
+    padding: 5px 25px;
     cursor: pointer;
 }
 
@@ -532,11 +532,10 @@ header ul li a:hover {
     text-align: center;
     padding: 50px 20px;
     margin: 20px 0;
-   display: flex;
-   flex-direction: column;
-   justify-content: start;
-   align-items: center;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
 
 #team-sec h2 {
@@ -558,8 +557,10 @@ header ul li a:hover {
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    margin: 10px 5px;
 }
-.team-member p{
+
+.team-member p {
     padding: 5px 0;
     color: gray;
     font-size: 0.9rem;
@@ -573,6 +574,80 @@ header ul li a:hover {
     width: 100%;
 }
 
+/* pricing section */
+#pricing-sec {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#pricing-sec h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.pricing-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pricing-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    background-color: #f8f9fa;
+    border-top-right-radius: 20px;
+    padding: 40px 40px;
+    margin: 10px 15px;
+}
+.pricing-card p{
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+}
+.pricing-card-fainted {
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    color: rgb(186, 184, 184);
+}
+#pricing-p{
+    padding: 20px 0;
+    font-size: 2rem;
+    color: gray;
+}
+.pricing-card button{
+    margin-top: 30px;
+    padding-right: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #f8f9fa;
+    color: red;
+    border: red 1px solid;
+}
+.pricing-card button:hover{
+    margin-top: 30px;
+    padding-right: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: red;
+    color: white;
+    border: white 1px solid;
+}
+.premium-pricing-card{
+    background-color: red;
+    color: white;
+}
+#premium-pricing-p{
+    padding: 20px 0;
+    font-size: 2rem;
+    color: white;
+}
 
 /* footer */
 footer {
@@ -642,6 +717,10 @@ footer p {
     height: 40px;
     border: #212529;
     margin-right: 2px;
+}
+#emailInput:focus {
+    outline: none;
+    border: #212529;
 }
 
 form {
