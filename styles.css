@@ -142,6 +142,7 @@ header ul li a:hover {
         width: 90%;
         margin: 10px 0;
     }
+
     .bottom-padding-10 {
         padding-bottom: 10px;
     }
@@ -525,16 +526,51 @@ header ul li a:hover {
     color: white;
 }
 
-/* take your goods anywhere section */
-#take-your-goods-anywhere-sec {
+/* team section */
+#team-sec {
     background-color: #f8f9fa;
     text-align: center;
     padding: 50px 20px;
+    margin: 20px 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: center;
+
 }
 
-#take-your-goods-anywhere-sec h2 {
+#team-sec h2 {
     font-size: 2.5rem;
     margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.team-member p{
+    padding: 5px 0;
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.team-member-img-frame {
+    width: 250px;
+}
+
+.team-member-img-frame img {
+    width: 100%;
 }
 
 
