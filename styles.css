@@ -133,7 +133,7 @@ header ul li a:hover {
     margin-bottom: 5px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 970px) {
     .main-banner-info {
         display: flex;
         flex-direction: column;
