@@ -96,10 +96,11 @@ header ul li a:hover {
 }
 
 .main-banner-content h1 {
-    font-size: 60px;
+    font-size: 4rem;
 }
 
 .main-banner-content p {
+    font-size: 1.2rem;
     margin: 10px 0;
 }
 
@@ -150,6 +151,24 @@ header ul li a:hover {
 
     .main-banner-info p {
         padding-bottom: 10px;
+    }
+
+    .main-banner-content {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        width: 70%;
+        color: white;
+    }
+
+    .main-banner-content h1 {
+        font-size: 2rem;
+    }
+    
+    .main-banner-content p {
+        font-size: 1rem;
+        margin: 10px 0;
     }
 }
 
@@ -255,6 +274,7 @@ header ul li a:hover {
 #company-services-sec h2 {
     font-size: 2.5rem;
     margin-bottom: 50px;
+    padding: 5px 10px;
     text-align: center;
 }
 
@@ -698,7 +718,7 @@ header ul li a:hover {
     padding: 10px 10px;
     margin: 10px 5px;
     width: 30%; 
-    min-width: 250px; 
+    min-width: 300px; 
 }
 
 .blog-card a {
@@ -818,7 +838,7 @@ form {
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        padding: 10px 20px;
+        padding: 30px 20px;
     }
 
     .logo-footer {
