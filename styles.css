@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html,
@@ -187,6 +188,9 @@ p {
 .main-banner-info p {
     margin-bottom: 5px;
 }
+#main-banner-info{
+    margin: 10px 0;
+}
 
 @media (max-width: 990px) {
     .main-banner-info {
@@ -221,6 +225,7 @@ p {
     .main-banner-content button {
         margin-top: 30px;
     }
+  
 
 
 }
@@ -230,6 +235,8 @@ p {
     background-color: #d6dadd;
     text-align: center;
     padding: 50px 20px;
+    margin-top: 25px;
+
 }
 
 #company-features-sec h2 {
@@ -313,6 +320,15 @@ p {
     #company-features-sec {
         margin-top: 25px;
         padding-bottom: 10px;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    #company-features-sec {
+        margin-top: 25px;
+        padding-bottom: 10px;
+        margin-top: 25px;
     }
 }
 
