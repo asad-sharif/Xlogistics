@@ -77,7 +77,7 @@ p {
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: red;
+    background-color: white;
     border-radius: 10px;
 }
 
@@ -113,36 +113,9 @@ p {
     .navbar-links.active {
         display: flex;
     }
-    
+
 }
 
-@media (max-width: 775px) {
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    header ul li a {
-        padding-left: 10px;
-        margin-top: 5px;
-    }
-    
-}
-
-header ul li {
-    list-style: none;
-    padding-left: 10px;
-}
-
-header ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-header ul li a:hover {
-    color: red;
-}
 
 /* main banner section */
 .main-banner-div {
@@ -191,15 +164,18 @@ header ul li a:hover {
     padding: 40px 25px;
     transform: translateY(-50%);
 }
-.main-banner-info-sec{
+
+.main-banner-info-sec {
     display: flex;
 }
-.main-banner-info-sec img{
+
+.main-banner-info-sec img {
     width: 40px;
     height: 40px;
     border-radius: 5px;
 }
-.main-banner-info-icon{
+
+.main-banner-info-icon {
     height: 40px;
     margin-right: 10px;
 }
@@ -229,25 +205,24 @@ header ul li a:hover {
         padding-bottom: 20px;
     }
 
-    
-
     .main-banner-content {
         position: absolute;
         top: 50%;
-        left: 5%;
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-        width: 70%;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
+        width: 90%;
         color: white;
+        text-align: center;
     }
 
     .main-banner-content h1 {
         font-size: 2.5rem;
     }
-    
-    .main-banner-content p {
-        font-size: 1rem;
-        margin: 10px 0;
+
+    .main-banner-content button {
+        margin-top: 30px;
     }
+
+
 }
 
 /* company features section */
@@ -796,8 +771,8 @@ header ul li a:hover {
     background-color: white;
     padding: 10px 10px;
     margin: 10px 5px;
-    width: 30%; 
-    min-width: 300px; 
+    width: 30%;
+    min-width: 300px;
 }
 
 .blog-card a {
