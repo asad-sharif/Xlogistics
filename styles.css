@@ -225,13 +225,11 @@ header ul li a:hover {
         margin: 10px 0;
     }
 
-    .bottom-padding-10 {
-        padding-bottom: 10px;
+    .bottom-padding-20 {
+        padding-bottom: 20px;
     }
 
-    .main-banner-info p {
-        padding-bottom: 10px;
-    }
+    
 
     .main-banner-content {
         position: absolute;
