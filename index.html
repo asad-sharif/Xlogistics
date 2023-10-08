@@ -9,18 +9,28 @@
     </head>
 
     <body>
-        <header>
-            <img src="./assets/logo.png" alt="XLogistics">
-            <nav>
+        <header class="navbar">
+            <div class="brand-logo">
+                <img src="./assets/logo.png" alt="">
+            </div>
+
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+
+            <div class="navbar-links">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#main-banner-sec">Home</a></li>
+                    <li><a href="#company-features-sec">Features</a></li>
+                    <li><a href="#company-services-sec">Services</a></li>
+                    <li><a href="#work-for-customers-sec">Our Work</a></li>
+                    <li><a href="#pricing-sec">Pricing</a></li>
+                    <li><a href="#blog-sec">Blog</a></li>
+                    <li><a href="#main-banner-info">Contact</a></li>
                 </ul>
-            </nav>
+            </div>
         </header>
 
         <!-- main banner section -->
@@ -35,7 +45,7 @@
                 </div>
             </div>
 
-            <div class="main-banner-info">
+            <div class="main-banner-info" id="main-banner-info">
                 <div class="main-banner-info-sec bottom-padding-10">
                     <div class="main-banner-info-icon">
                         <img src="./assets/phone-icon.svg" alt="">
@@ -384,5 +394,7 @@
             </div>
         </footer>
 
+        <script src="script.js"></script>
     </body>
+
 </html>
